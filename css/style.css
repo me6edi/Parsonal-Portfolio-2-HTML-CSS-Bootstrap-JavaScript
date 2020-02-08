@@ -29,7 +29,8 @@ body{
 .user-box h1{
 	color: #fff;
 	font-weight: bold;
-	margin: 10px;
+	margin: 20px;
+	margin-top: 25px;
 }
 .user-box p{
 	color: #fff;
@@ -79,7 +80,42 @@ body{
   }
 }
 
-
-
-
 /*-------------End Header css--------------*/
+
+/*-------------About--------------*/
+
+.about{
+	padding-top: 100px;
+	padding-bottom: 50px;
+}
+.profile-img{
+	height: 400px;
+}
+.nav-bar{
+	top: 0;
+	position: sticky;
+	z-index: 2;
+}
+.navbar{
+	background-color: #000;
+}
+.navbar-brand img{
+	height: 50px;
+}
+.nav-bar .fa-bars{
+	font-size: 35px;
+	color: #fff;
+}
+.navbar-toggler{
+	outline: none !important;
+}
+.navbar-nav{
+	float: right;
+	text-align: right;
+}
+.nav-link{
+	color: #fff !important;
+}
+/*-------------End About--------------*/
+
+
