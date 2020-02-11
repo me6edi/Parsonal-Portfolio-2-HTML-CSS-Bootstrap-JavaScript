@@ -86,10 +86,12 @@ body{
 
 .about{
 	padding-top: 100px;
-	padding-bottom: 50px;
+	padding-bottom: -130px;
 }
 .profile-img{
-	height: 400px;
+	height: 500px;
+	margin-top: -75px;
+	margin-bottom: 0px;
 }
 .nav-bar{
 	top: 0;
@@ -133,6 +135,7 @@ body{
 
 /*-------------Resume-----------------*/
 .resume{
+	margin-top: -50px;
 	padding-top: 50px;
 	padding-bottom: 30px;
 	background: #f9f9f9;
@@ -238,7 +241,7 @@ body{
 /*-------------Contact--------------------*/
 
 .contact{
-	padding-top: 50px;
+	padding-top: 100px;
 	background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(../img/background3.jpg)no-repeat;
  	background-size: cover;
  	background-position: center;
@@ -299,18 +302,23 @@ body{
 	z-index: 1;
 	width: 80px;
 }
-/*.social-icons ul{
-	padding: initial;
-}*/
+
 .social-icons ul li{
-	height: 40px;
-	width: 40px;
+	height: 50px;
+	width: 50px;
 	list-style-type: none;
-	padding-left: 12px;
-	padding-top: 6px;
-	margin-top: 5px;
+	padding-left: 15px;
+	padding-top: 10px;
+	margin-top: 10px;
 	color: #fff;
 	background: #000;
+	font-size: 20px;
+}
+.social-icons ul li:hover{
+	color: red;
+	padding-left: 30px;
+	width: 80px;
+	transition: 0.5s;
 }
 /*-------------End Social-icons--------------------*/
 
